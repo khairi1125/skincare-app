@@ -1,3 +1,4 @@
+
 # Skincare Product CRUD App (Laravel)
 
 Aplikasi web sederhana berbasis Laravel untuk mengelola data produk skincare.
@@ -326,3 +327,7 @@ Project ini sangat cocok sebagai:
 ---
 
 **Status: Project selesai & berjalan dengan baik**
+
+# skincare-app
+Aplikasi CRUD berberbasis website untuk data produk Skincare
+
