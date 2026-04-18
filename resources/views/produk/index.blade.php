@@ -45,6 +45,7 @@
             <td>{{ $p->deskripsi }}</td>
             <td>{{ $p->tanggal_expired }}</td>
             <td>
+                <div class="d-flex flex-column gap-2">
                 <a href="{{ route('produk.edit', $p->id) }}" class="btn btn-warning btn-sm">Edit</a>
 
                 <form action="{{ route('produk.destroy', $p->id) }}" method="POST" style="display:inline;" onsubmit="return confirm('Yakin mau hapus data ini?')">
@@ -52,6 +53,7 @@
                     @method('DELETE')
                     <button type="submit" class="btn btn-danger btn-sm">Hapus</button>
                 </form>
+                </div>
             </td>
         </tr>
         @endforeach
