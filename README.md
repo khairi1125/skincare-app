@@ -27,7 +27,7 @@ Project ini juga menerapkan konsep:
 
 # Tools & Teknologi yang Digunakan
 
-* PHP (minimal versi 8+)
+* PHP 8.3
 * Laravel 13
 * MySQL
 * XAMPP (Apache & MySQL)
